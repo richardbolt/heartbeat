@@ -1,0 +1,6 @@
+package: heartbeat
+import:
+- package: github.com/goadesign/goa
+- package: golang.org/x/net
+  subpackages:
+  - context
