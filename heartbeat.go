@@ -10,10 +10,10 @@ import (
 )
 
 // Heartbeat adds a standard response on a given url,
-// which defaults to /heartbeat if url is an empty string.
+// which defaults to /health if url is an empty string.
 func Heartbeat(service *goa.Service, url string) {
 	if url == "" {
-		url = "/heartbeat"
+		url = "/health"
 	}
 	h := newHeartbeatController(service)
 	mountHeartbeatController(service, h, url)
