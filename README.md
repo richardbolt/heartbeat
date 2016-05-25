@@ -1,4 +1,4 @@
-Heartbeat
+Heartbeat ![Heartbeat Build Status](https://travis-ci.org/richardbolt/heartbeat.svg?branch=master)
 =========
 
 Heartbeat is a small module to use with a [Goa](http://goa.design/) app providing a heartbeat to ping for health check purposes.
