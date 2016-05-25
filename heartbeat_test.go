@@ -1,12 +1,12 @@
 package heartbeat_test
 
 import (
-	"heartbeat"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
 	"github.com/goadesign/goa"
+	"github.com/richardbolt/heartbeat"
 )
 
 func TestHeartbeat_DefaultURL(t *testing.T) {
